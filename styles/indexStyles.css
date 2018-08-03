@@ -1,0 +1,13 @@
+.parallax {
+    min-height: 1100px;
+
+    background: url("../assets/mustacheBackdrop.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.parallax-blue-fox {
+    min-height: 1000px;
+
+    background: url("../assets/bluefox-banner.jpg") no-repeat fixed center;
+    background-size: cover;
+}
