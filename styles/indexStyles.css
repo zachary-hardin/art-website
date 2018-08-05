@@ -5,9 +5,14 @@
     background-size: cover;
 }
 
-.parallax-blue-fox {
-    min-height: 1000px;
+@media only screen and (max-width: 992px) {
+    #bio-header {
+        font-size: 50pt !important;
+    }
+}
 
-    background: url("../assets/bluefox-banner.jpg") no-repeat fixed center;
-    background-size: cover;
+@media only screen and (max-width: 634px) {
+    #bio-header {
+        font-size: 30pt !important;
+    }
 }
